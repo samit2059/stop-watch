@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 180px; */
+    margin: 150px 480px;
+    font-size: 30px;
+    font-style: normal;
+    padding: 10px;
+    /* border: 2px solid rgb(255, 145, 42); */
+    width: 400px;
+    border-radius: 50px;
+    background-color: rgb(130, 198, 253);
+    box-shadow: 2px -1px 15px 3px rgb(75, 75, 75);
+    font-weight: 600;
+    /* position: fixed; */
+}
+
+.timer{
+    padding: 10px;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.start, .stop, .reset{
+    padding: 0 20px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
