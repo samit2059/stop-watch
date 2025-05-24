@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box;*/
+   }
+.navbar a,
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .btn,
+.navbar input,
+.navbar .form-control {
+  /* color: inherit !important; */
+  background-color: inherit !important;
+  /* border: inherit !important; */
+}
+
+.Nav-bar{
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
+.Nav-bar button {
+    padding: 10px;
+}

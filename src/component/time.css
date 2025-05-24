@@ -1,4 +1,63 @@
-.Nav-bar{
+/* *{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; }*/
+
+
+/* .Nav-bar{
     margin: 0px;
     padding: 10px;
+} */
+
+
+
+/* @import "tailwindcss"; */
+
+.time-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 180px; */
+    margin: 130px 370px;
+    font-size: 30px;
+    font-style: normal;
+    padding: 50px;
+    /* border: 2px solid rgb(255, 145, 42); */
+    width: 400px;
+    /* overflow: hidden; */
+    height: 250px;
+    border-radius: 50px;
+    background-color: rgb(130, 198, 253);
+    box-shadow: 2px -1px 15px 3px rgb(75, 75, 75);
+    font-weight: 600;
+    /* position: fixed; */
+}
+
+.timer{
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.start, .stop, .reset{
+     padding: 8px 20px;              /* Add more padding for bigger clickable area */
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px; transition: background-color 0.3s ease, color 0.3s ease;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    cursor: pointer;
+}
+.start:hover {
+    background-color: #4caf50;      /* Green background on hover */
+    color: white;
+    border-color: #4caf50;
+}
+.stop, .reset:hover{
+background-color: rgb(25, 27, 27);
+    border-color: #4caf50;
+color: aliceblue;
 }
